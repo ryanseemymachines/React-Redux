@@ -7,9 +7,9 @@ const ChangeData = () => {
     const dispatch= useDispatch();
   return (
     <div>
-      <Button type="button" onClick={ () => dispatch(increment())} title="Increment" />
-      <Button type="button" onClick={ () => dispatch(decrement())} title="Decrement" />
-      <Button type="button" onClick={ () => dispatch(reset())} title="Reset" />
+      <Button type="button" onClick={ () => dispatch(increment(10))} title="Increment" />
+      <Button type="button" onClick={ () => dispatch(decrement(5))} title="Decrement" />
+      <Button type="button" onClick={ () => dispatch(reset(2))} title="Reset" />
     </div>
   );
 };
