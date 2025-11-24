@@ -1,5 +1,5 @@
 import Button from "../Button";
-import { increment, decrement, reset } from "../../actions";
+import { increment,decrement,reset } from "../../actions";
 import { useDispatch } from "react-redux";
 
 const ChangeData = () => {
